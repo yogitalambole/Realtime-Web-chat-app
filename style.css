@@ -1,0 +1,192 @@
+
+.logo{
+    display: block;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+}
+
+.title{
+    display: block;
+    margin: auto;
+    padding-left: 630px;
+}
+
+.container{
+    max-width: 955px;
+    background-image: linear-gradient(rgb(255,255,255),  rgb(0, 133, 33));
+    margin: auto;
+    height: 60vh;
+    overflow-y: auto;
+}
+
+.message{
+    width: auto;
+    height: auto;
+    padding: 10px;
+    margin: 17px 12px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.left{
+    float: left;
+    clear: both;
+    background-color: rgb(255, 255, 255);
+}
+
+.right{
+    float: right;
+    clear: both;
+    background-color: rgba(183, 202, 6, 0.514);
+}
+
+body{
+    height: 100vh;
+}
+
+
+.send{
+    max-width: 955px;
+    background-color: rgb(0, 0, 0);
+    margin: auto;
+    height: 20vh;
+}
+
+.box{
+    display: block;
+    border: 5px;
+    border-color: grey;
+    border-radius: 10px;
+}
+
+.bold{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+.italic{
+    background-color: black;
+    color: white;
+    font-style: italic;
+}
+
+.Strikethrough{
+    background-color: black;
+    color: white;
+}
+
+.hyperlink{
+    background-color: black;
+    color: white;
+}
+
+.bulleted{
+    width: 23px;
+    height: 23px;
+}
+.img{
+    display: block;
+    width: 23px;
+    height: 23px;
+    margin: -8px;
+}
+
+.numbered{
+    width: 23px;
+    height: 23px;
+}
+.img1{
+    display: block;
+    width: 23px;
+    height: 23px;
+    margin: -8px;
+}
+
+.blockquote{
+    width: 23px;
+    height: 23px;
+}
+.img2{
+    display: block;
+    width: 23px;
+    height: 23px;
+    margin: -8px;
+}
+
+.code-snippet{
+    width: 23px;
+    height: 23px;
+}
+.img3{
+    display: block;
+    width: 23px;
+    height: 23px;
+    margin: -8px;
+}
+
+.code-block{
+    width: 23px;
+    height: 23px;
+}
+.img4{
+    display: block;
+    width: 23px;
+    height: 23px;
+    margin: -8px;
+}
+
+.text{
+    background-color: black;
+    color: white;
+    width: 92%;
+    padding: 10px;
+    margin: 17px 12px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.file-upload{
+    width: 23px;
+    height: 23px;
+}
+.img5{
+    display: block;
+    width: 23px;
+    height: 23px;
+    margin: -8px;
+}
+
+.emoji{
+    width: 23px;
+    height: 23px;
+}
+.img6{
+    display: block;
+    width: 23px;
+    height: 23px;
+    margin: -8px;
+}
+
+.mention{
+    background-color: black;
+    color: white;
+}
+
+.sending{
+    display: block;
+    width: 45px;
+    height: 25px;
+    margin: -25px 850px;
+    background-color: rgb(0, 126, 78);
+    border-color: rgb(0, 126, 78);
+}
+
+.img7{
+    display: block;
+    width: 35px;
+    height: 23px;
+    margin: -3px;
+}
