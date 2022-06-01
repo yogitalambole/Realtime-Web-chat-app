@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Application</title>
+    <link rel="stylesheet" type="text/css" href="/style.css" >
+</head>
+<body>
+    <nav>
+        <img class="logo" src="logo.png" height="50" width="50" style="display: block; margin: auto;">
+    </nav>
+    <div class="title"><h4>ChatApp</h4></div>
+    <div class="container">
+    </div>
+    <div class="send"><div class="box">
+        <form action="#" id="send-container">
+                <button class="bold" id="bold" onclick="Bold()">B</button>
+                <button class="italic" id="italic" onclick="Italic()">𝐼</button>
+                <button class=" Strikethrough" id="strike" onclick="strikeIt()"> ̶S̶</button>
+                <button class="hyperlink" id="hyper" onclick="hyper()">🔗</button>
+                <button class="bulleted" onclick="bulleted()"><img class="img" src="bulleted.png"></button>
+                <button class="numbered" onclick="numbered()"><img class="img1" src="numbered.png"></button>
+                <button class="blockquote" onclick="blockquote()"><img class="img2" src="blockquote.png"></button>
+                <button class="code-snippet" ><img class="img3" src="snippet.png"></button>
+                <button class="code-block" ><img class="img4" src="block.png"></button>
+                <div><input class="text" id="text" type="message" placeholder="Chat comes here..."></div>
+                <button class="file-upload" ><img class="img5" src="add.png"></button>
+                <button class="emoji" ><img class="img6" src="emoji.png"></button>
+                <button class="mention" >@</button>
+                <button class="sending" id="submit"><img class="img7" src="send.png"></button>
+        </form></div>
+    </div>
+    <script>
+        function Bold() {
+ 
+            var  ban =document.getElementById("text").style.fontWeight ;
+ 
+            if(ban == 'normal')
+            {
+                document.getElementById("text").style.fontWeight = 'bold';
+            }
+            else
+            {
+                document.getElementById("text").style.fontWeight = 'normal';
+            }
+        }
+
+        function Italic() {
+ 
+            var  ban =document.getElementById("text").style.fontStyle;
+
+            if(ban == 'normal')
+            {
+                document.getElementById("text").style.fontStyle = 'italic';
+            }
+            else
+            {
+                document.getElementById("text").style.fontStyle = 'normal';
+            }
+        }
+
+        function strike() {
+
+            var ban= document.getElementById("text").style.textDecoration;
+            
+
+            if(ban =='normal')
+            {
+                document.getElementById("text").style.textDecoration = strike;
+            }
+            else
+            {
+                document.getElementById("text").style.textDecoration = 'normal';
+            }
+            
+        }
+
+        function hyper() {
+
+            var ban= document.getElementById("text").style.textDecoration;
+
+
+            if(ban =='normal')
+            {
+                document.getElementById("text").innerHTML;
+            }
+            else
+            {
+                document.getElementById("text").style.textDecoration = 'normal';
+            }
+
+}
+
+        function bulleted() {
+
+        var ban= document.getElementById("text").style.listStyleType;
+
+
+        if(ban =='normal')
+        {
+            document.getElementById("text").style.listStyleType = 'circle';
+        }
+        else
+        {
+            document.getElementById("text").style.listStyleType = 'normal';
+        }
+
+        }
+
+        function numbered() {
+
+        var ban= document.getElementById("text").style.listStyleType;
+
+
+        if(ban =='normal')
+        {
+            document.getElementById("text").style.listStyleType = 'decimal';
+        }
+        else
+        {
+            document.getElementById("text").style.listStyleType = 'normal';
+        }
+
+}
+
+        function blockquote() {
+
+        var ban= document.getElementById("text").textContent;
+
+
+        if(ban =='normal')
+        {
+            document.createElement('blockquote');
+        }
+        else
+        {
+            document.getElementById("text").style.listStyleType = 'normal';
+        }
+
+}
+
+        
+
+
+    </script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/client.js"></script>
+</body>
+</html>
